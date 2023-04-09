@@ -9,16 +9,16 @@ let gif = document.getElementById('gif');
 let songitem = Array.from(document.getElementsByClassName('songitem'));
 
 let songs = [
-    {songName: "Baby calm-down", filePath: "songs/music1.mp3", coverPath:'1.jpg'},
-    {songName: "darmiyaan", filePath: "songs/music2.mp3", coverPath: 'cover.jpg'},
-    {songName: "Until I found You", filePath: "songs/music3.mp3", coverPath: '3.jfif'},
-    {songName: "Kbhi tumhe yaad meri aaye", filePath: "songs/music4.mp3", coverPath: '6.jfif'},
-    {songName: "Night-changes", filePath: "songs/music5.mpeg", coverPath: 'c1.jpg'},
-    {songName: "Perfect", filePath: "songs/music6.mpeg", coverPath: '2.jpg'},
-    {songName: "Duniya", filePath: "songs/music7.mp3", coverPath: '5.jfif'},
-    {songName: "Doraemon", filePath: "songs/music8.mp3", coverPath: 'doraemoncover.jpg'},
-    {songName: "Apna bana le", filePath: "songs/music9.mp3", coverPath: '7.jfif'},
-    {songName: "jeena-jeena", filePath: "songs/Shinchan-Original-Song.mp3", coverPath: 'shincover.jpg'}
+    {songName: "Baby calm-down", filePath: "songs/music1.mp3", coverPath:'covers/1.jpg'},
+    {songName: "darmiyaan", filePath: "songs/music2.mp3", coverPath: 'covers/cover.jpg'},
+    {songName: "Until I found You", filePath: "songs/music3.mp3", coverPath: 'covers/3.jfif'},
+    {songName: "Kbhi tumhe yaad meri aaye", filePath: "songs/music4.mp3", coverPath: 'covers/6.jfif'},
+    {songName: "Night-changes", filePath: "songs/music5.mpeg", coverPath: 'covers/c1.jpg'},
+    {songName: "Perfect", filePath: "songs/music6.mpeg", coverPath: 'covers/2.jpg'},
+    {songName: "Duniya", filePath: "songs/music7.mp3", coverPath: 'covers/5.jfif'},
+    {songName: "Doraemon", filePath: "songs/music8.mp3", coverPath: 'covers/doraemoncover.jpg'},
+    {songName: "Apna bana le", filePath: "songs/music9.mp3", coverPath: 'covers/7.jfif'},
+    {songName: "jeena-jeena", filePath: "songs/Shinchan-Original-Song.mp3", coverPath: 'covers/shincover.jpg'}
 ]
 
 songitem.forEach((Element, i)=>{ 
